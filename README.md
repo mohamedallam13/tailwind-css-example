@@ -3,7 +3,7 @@ An Example on the use of Tailwind CSS library
 
 Checkout the live website [here](https://github.com/mohamedallam13)
 
-![Product screenshot](./assets/images/screenshots/Screenshot1.png)
+![Product screenshot](./screenshots/Screenshot1.png)
 
 ### Built With
 
