@@ -12,16 +12,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;600&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <title>Test</title>
+    <title>Why Tailwind CSS</title>
 </head>
 
 <body class="bg-dusk-purple">
     <nav class="bg-midnight-purple flex justify-between text-white py-4 px-8">
-        <a href="">Logo</a>
+        <a href="/src/index.html" class="text-4xl font-bold">Tailwind CSS</a>
         <ul class="hidden md:flex flex-row items-center align-middle gap-4">
-            <li><a href="#"></a>Home</li>
-            <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Contact</li>
+            <li class="px-4 py-2 rounded-md hover:bg-neon-red"><a href="/src/index.html">Home</a></li>
+            <li class="px-4 py-2 rounded-md hover:bg-neon-red"><a href="#about" >About</a></li>
+            <li class="px-4 py-2 rounded-md hover:bg-neon-red"><a href="https://tailwindcss.com/">Contact</a></li>
         </ul>
         <div class="md:hidden bg-white">
             <svg viewBox="0 0 100 80" width="40" height="40">
@@ -31,9 +31,9 @@
             </svg>
         </div>
     </nav>
-    <div class="container mt-5">
+    <div class="container mt-5" id="about">
         <!-- Card 1 -->
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4 sm:grid-cols-1">
             <div class="bg-white rounded px-4 py-4 border-2 border-midnight-purple">
                 <h2 class="tracking-widest text-xs mb-1">CATEGORY</h2>
                 <h1 class="title-font text-lg mb-3 text-midnight-purple">Tailwind CSS</h1>
@@ -44,7 +44,7 @@
                     leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
                     with the release of Letraset sheets containin
                 </p>
-                <button class="bg-midnight-purple text-sm text-white rounded-md px-4 py-1">Click Me</button>
+                <button class="bg-midnight-purple text-sm text-white rounded-md px-4 py-1 hover:bg-neon-red">Click Me</button>
             </div>
 
             <!-- Card 2 -->
@@ -58,7 +58,35 @@
                     leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
                     with the release of Letraset sheets containin
                 </p>
-                <button class="bg-midnight-purple text-sm text-white rounded-md px-4 py-1">Click Me</button>
+                <button class="bg-midnight-purple text-sm text-white rounded-md px-4 py-1 hover:bg-neon-red">Click Me</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded px-4 py-4 border-2 border-midnight-purple">
+                <h2 class="tracking-widest text-xs mb-1">CATEGORY</h2>
+                <h1 class="title-font text-lg mb-3 text-midnight-purple">Tailwind CSS</h1>
+                <p class="leading-relaxed text-sm mb-3">
+                    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containin
+                </p>
+                <button class="bg-midnight-purple text-sm text-white rounded-md px-4 py-1 hover:bg-neon-red">Click Me</button>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="bg-white rounded px-4 py-4 border-2 border-midnight-purple">
+                <h2 class="tracking-widest text-xs mb-1">CATEGORY</h2>
+                <h1 class="title-font text-lg mb-3 text-midnight-purple">Tailwind CSS</h1>
+                <p class="leading-relaxed text-sm mb-3">
+                    is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containin
+                </p>
+                <button class="bg-midnight-purple text-sm text-white rounded-md px-4 py-1 hover:bg-neon-red">Click Me</button>
             </div>
         </div>
     </div>
